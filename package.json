@@ -1,15 +1,24 @@
 {
-  "name": "hackathon",
+  "name": "nobitex-challenge",
   "version": "1.0.0",
   "description": "",
-  "main": "start.js",
+  "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "api": "node api.js",
+    "core":"node core.js"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
     "@nebula-contrib/nebula-nodejs": "^3.0.3",
-    "express": "^4.18.2"
+    "async": "^3.2.4",
+    "bitcoinjs-lib": "^6.1.5",
+    "bitcore-lib": "^10.0.11",
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "lodash": "^4.17.21",
+    "node-json-db": "^2.2.0",
+    "request": "^2.88.2",
+    "tiny-secp256k1": "^2.2.3"
   }
 }
